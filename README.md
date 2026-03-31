@@ -106,7 +106,7 @@ To build a comprehensive, multi-layered Power BI dashboard that gives supply cha
 
 ---
 
-### Page 3 — Outbound Logistics Analysis
+#### Page 3 — Outbound Logistics Analysis
 
 - KPI Cards (Air Share, Non-Air Share, WC Lost, WC Blocked):  
   At €6.77M air and €19.14M non-air, outbound logistics totals ~€25.9M, the outbound network is dealing with both overstock and stockout problems simultaneously — a sign of poor demand-supply synchronization at the warehouse level.
@@ -133,11 +133,8 @@ To build a comprehensive, multi-layered Power BI dashboard that gives supply cha
 
 ## 6. Screenshots
 
-Page 1:  
-https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operations_SCM_Project.jpg
+Page 1: ![Dashboard Preview](https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operations_SCM_Project.jpg)
 
-Page 2:  
-https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operation_SCM_Page%202.jpg
+Page 2:  ![Dashboard Preview](https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operation_SCM_Page%202.jpg)
 
-Page 3:  
-https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operation_SCM_Page3.jpg
+Page 3:  ![Dashboard Preview](https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operation_SCM_Page3.jpg)
