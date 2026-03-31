@@ -7,16 +7,16 @@ End-to-End Supply Chain Analytics: Inventory, Logistics & Profitability | Power 
 2.	 Purpose:  
 This Power BI dashboard provides a comprehensive, data-driven analysis of Sportswear Brand’s supply chain performance. Built as part of a supply chain transformation case study, the dashboard is designed to help operations managers, and analysts identify inefficiencies and opportunities across different sectors:
 
-•	Inventory Analysis — 
+  •	Inventory Analysis — 
 Understand the current state of stock levels, identify overstocked or understocked SKUs across different categories, and evaluate the effect of wrong forecasting upon working capital. It also showcases key matrices of inventory like WAPE, COGS, DOH, ITR and Total Holding Cost (~2%) due to over estimation.
 
-•	Inbound Logistics Analysis (Supplier to Distribution Centers) – 
+  •	Inbound Logistics Analysis (Supplier to Distribution Centers) – 
 Track supplier-side shipment performance, analyzing cost and lead times by region and mode of transport, and identify bottlenecks in the inbound supply flow. Performed reconciliation analysis to check if units are subjected to damage theft or pilferage during the transaction process from Supplier to DC to Warehouses by comparing total inbound units and total receipt units.
 
-•	Outbound Logistics — 
+  •	Outbound Logistics — 
 Evaluate distribution efficiency from Distribution Centers to warehouses, with a focus on cost-per-shipment and delivery performance. Analyzed total warehouses distribution across distribution centers and if it is aligned properly as per the demand by comparing the inbound units and sales units.
 
-•	Profit & Margin Analysis — 
+  •	Profit & Margin Analysis — 
 Connect supply chain costs to financial outcomes, revealing how logistics spend and inventory inefficiencies are eroding margins across regions and product categories. Performed Monthly revenue, cost and profit comparison can be filtered for different categories.
 
 3. Tech Stack:  
