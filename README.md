@@ -6,27 +6,32 @@ End-to-End Supply Chain Analytics: Inventory, Logistics & Profitability | Power 
 
 2.	 Purpose:  
 This Power BI dashboard provides a comprehensive, data-driven analysis of Sportswear Brand’s supply chain performance. Built as part of a supply chain transformation case study, the dashboard is designed to help operations managers, and analysts identify inefficiencies and opportunities across different sectors:
+
 •	Inventory Analysis — 
 Understand the current state of stock levels, identify overstocked or understocked SKUs across different categories, and evaluate the effect of wrong forecasting upon working capital. It also showcases key matrices of inventory like WAPE, COGS, DOH, ITR and Total Holding Cost (~2%) due to over estimation.
+
 •	Inbound Logistics Analysis (Supplier to Distribution Centers) – 
 Track supplier-side shipment performance, analyzing cost and lead times by region and mode of transport, and identify bottlenecks in the inbound supply flow. Performed reconciliation analysis to check if units are subjected to damage theft or pilferage during the transaction process from Supplier to DC to Warehouses by comparing total inbound units and total receipt units.
+
 •	Outbound Logistics — 
 Evaluate distribution efficiency from Distribution Centers to warehouses, with a focus on cost-per-shipment and delivery performance. Analyzed total warehouses distribution across distribution centers and if it is aligned properly as per the demand by comparing the inbound units and sales units.
+
 •	Profit & Margin Analysis — 
 Connect supply chain costs to financial outcomes, revealing how logistics spend and inventory inefficiencies are eroding margins across regions and product categories. Performed Monthly revenue, cost and profit comparison can be filtered for different categories.
 
 3. Tech Stack:  
 The dashboard was built using the following tools and technologies:
 • 📊 Power BI Desktop – Main data visualization platform used for report creation.
+
 • 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.
 • 🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.
 • 📝 Data Modeling – Relationships established among tables (DC Inbound Data, DC Outbound Data, Warehouse Data, Callender, Profit Structure) to enable cross-filtering and aggregation.
 • 📁 File Format – .pbix for development and .png for dashboard previews.
 
-4. Data Source:  
+5. Data Source:  
 Data on ~300 unique SKU Products, total 15 Warehouses located at different countries, 3 Distribution Centers around the world and total 3 Supplier countries are mentioned in the data models, including details on product wise inventory units, sales data, forecasting data, unit price info are provided. Other information includes inbound logistics cost, outbound logistics cost across different transport mediums are also mentioned.
 
-5. Features / Highlights:  
+6. Features / Highlights:  
 🔴 Business Problem
 A €15B global sportswear brand is experiencing declining profit margins despite strong revenue. The root cause lies within the supply chain — poor forecast accuracy is driving simultaneous overstock and stockouts, working capital worth tens of millions is either blocked in excess inventory or lost to missed sales, inbound procurement costs are heavily concentrated in high-cost nodes, and outbound logistics spend is misaligned with actual regional sales demand. Leadership lacks a single integrated view to diagnose these inefficiencies and prioritize corrective action.
 
