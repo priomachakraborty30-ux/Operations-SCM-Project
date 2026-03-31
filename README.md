@@ -1,10 +1,10 @@
 # Operations-SCM-Project
 Developed an end-to-end Power BI dashboard analyzing profitability across inventory, logistics, and sales operations. Identified profit leakage driven by logistics costs and forecasting inefficiencies using DAX-based financial modeling.
 
-1.	Project Title 
+1.	Project Title:  
 End-to-End Supply Chain Analytics: Inventory, Logistics & Profitability | Power BI
 
-2.	 Purpose
+2.	 Purpose:  
 This Power BI dashboard provides a comprehensive, data-driven analysis of Sportswear Brand’s supply chain performance. Built as part of a supply chain transformation case study, the dashboard is designed to help operations managers, and analysts identify inefficiencies and opportunities across different sectors:
 •	Inventory Analysis — 
 Understand the current state of stock levels, identify overstocked or understocked SKUs across different categories, and evaluate the effect of wrong forecasting upon working capital. It also showcases key matrices of inventory like WAPE, COGS, DOH, ITR and Total Holding Cost (~2%) due to over estimation.
@@ -15,7 +15,7 @@ Evaluate distribution efficiency from Distribution Centers to warehouses, with a
 •	Profit & Margin Analysis — 
 Connect supply chain costs to financial outcomes, revealing how logistics spend and inventory inefficiencies are eroding margins across regions and product categories. Performed Monthly revenue, cost and profit comparison can be filtered for different categories.
 
-3. Tech Stack
+3. Tech Stack:  
 The dashboard was built using the following tools and technologies:
 • 📊 Power BI Desktop – Main data visualization platform used for report creation.
 • 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.
@@ -23,17 +23,17 @@ The dashboard was built using the following tools and technologies:
 • 📝 Data Modeling – Relationships established among tables (DC Inbound Data, DC Outbound Data, Warehouse Data, Callender, Profit Structure) to enable cross-filtering and aggregation.
 • 📁 File Format – .pbix for development and .png for dashboard previews.
 
-4. Data Source
+4. Data Source:  
 Data on ~300 unique SKU Products, total 15 Warehouses located at different countries, 3 Distribution Centers around the world and total 3 Supplier countries are mentioned in the data models, including details on product wise inventory units, sales data, forecasting data, unit price info are provided. Other information includes inbound logistics cost, outbound logistics cost across different transport mediums are also mentioned.
 
-5. Features / Highlights:
+5. Features / Highlights:  
 🔴 Business Problem
 A €15B global sportswear brand is experiencing declining profit margins despite strong revenue. The root cause lies within the supply chain — poor forecast accuracy is driving simultaneous overstock and stockouts, working capital worth tens of millions is either blocked in excess inventory or lost to missed sales, inbound procurement costs are heavily concentrated in high-cost nodes, and outbound logistics spend is misaligned with actual regional sales demand. Leadership lacks a single integrated view to diagnose these inefficiencies and prioritize corrective action.
 
-🎯 Goal of the Dashboard:
+🎯 Goal of the Dashboard:  
 To build a comprehensive, multi-layered Power BI dashboard that gives supply chain leaders and executives a data-driven diagnostic tool across three interconnected problem areas — Inventory & Forecasting, Inbound Logistics & Profitability, and Outbound Logistics — enabling them to pinpoint inefficiencies, quantify financial impact, and drive targeted interventions.
 
-👁️ Walkthrough of Key Visuals:
+👁️ Walkthrough of Key Visuals: 
 Page 1 — Inventory Insights
 •	KPI Cards (WAPE, COGS, DOH, ITR, Holding Cost): The headline metrics tell an immediate story — a WAPE of 0.45 signals a poor accuracy in forecasting, it implies on average, forecasts are off by 45 units for every 100 units sold. DOH of 38.57 means inventory sits for over a month on average, and €452.7K in holding costs is a direct cash drain. 
 •	Monthly Forecast Bias Chart: Forecast bias oscillates around zero across all three categories throughout the year. While this may suggest no systematic over or under-forecasting, the high volatility — especially for Shoes — reveals that the forecasting process is highly unstable and reactive rather than predictive.
@@ -61,6 +61,11 @@ ________________________________________
 •	The company is not only facing a simple overstock or understock problem — it's facing a segmentation failure, where the wrong products are overstocked while the right ones run out.
 •	Shoes carries disproportionate risk. Accounting for 70.6% of profit, the highest inventory days, the most working capital blocked, and the highest forecast error volume — Shoes is simultaneously the most valuable and most vulnerable category in the portfolio.
 •	Supplier rigidity is amplifying demand-supply mismatch. Flat monthly supplier volumes regardless of seasonal demand patterns mean warehouses are flooded in low-demand months and potentially short in peak months. Moving to demand-linked procurement cadences is a critical structural fix.
-6. Screenshots 
+
+6. Screenshots:
+Page 1: https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operations_SCM_Project.jpg
+Page 2: https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operation_SCM_Page%202.jpg
+Page 3: https://github.com/priomachakraborty30-ux/Operations-SCM-Project/blob/main/Operation_SCM_Page3.jpg
+
 
 
