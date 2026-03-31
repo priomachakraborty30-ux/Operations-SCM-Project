@@ -34,7 +34,8 @@ A €15B global sportswear brand is experiencing declining profit margins despit
 To build a comprehensive, multi-layered Power BI dashboard that gives supply chain leaders and executives a data-driven diagnostic tool across three interconnected problem areas — Inventory & Forecasting, Inbound Logistics & Profitability, and Outbound Logistics — enabling them to pinpoint inefficiencies, quantify financial impact, and drive targeted interventions.
 
 👁️ Walkthrough of Key Visuals: 
-Page 1 — Inventory Insights
+  
+  Page 1 — Inventory Insights
 •	KPI Cards (WAPE, COGS, DOH, ITR, Holding Cost): The headline metrics tell an immediate story — a WAPE of 0.45 signals a poor accuracy in forecasting, it implies on average, forecasts are off by 45 units for every 100 units sold. DOH of 38.57 means inventory sits for over a month on average, and €452.7K in holding costs is a direct cash drain. 
 •	Monthly Forecast Bias Chart: Forecast bias oscillates around zero across all three categories throughout the year. While this may suggest no systematic over or under-forecasting, the high volatility — especially for Shoes — reveals that the forecasting process is highly unstable and reactive rather than predictive.
 •	DOH by Category (Donut Chart): Shoes carry the heaviest inventory burden at ~28 days, followed by Apparel at ~23 days. Given that Shoes are the highest revenue category, this level of stock build-up is the single largest contributor to working capital blockage.
